@@ -44,8 +44,8 @@ def hij2geo(yr, mth, dy):
     return d, m, y
 
 if __name__ == '__main__':
-    print("1) Convertir une date du calendrier Julien-Grégorien en date du calendrier Hégire Arabe.")
-    print("2) Convertir une date du calendrier Hégire Arabe en date du calendrier Julien-Grégorien.")
+    print("1. Convertir une date du calendrier Julien-Grégorien en date du calendrier Hégire Arabe.")
+    print("2. Convertir une date du calendrier Hégire Arabe en date du calendrier Julien-Grégorien.")
     while True:
         answer = input("\nRéponse: ")
         if answer == '1':
